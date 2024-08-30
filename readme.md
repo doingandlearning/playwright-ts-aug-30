@@ -5,7 +5,7 @@
   - Email: kevin@kevincunningham.co.uk
   - Website: https://kevincunningham.co.uk
 - Repo link: [Repo Link](https://github.com/doingandlearning/playwright-ts-aug-30)
-- Feedback link: [Feedback]()
+- Feedback link: [Feedback](https://forms.microsoft.com/e/bvUJjg4mpP)
 - Miro board: [Miro](https://miro.com/app/board/uXjVKk_yNkk=/)
 
 ## Timings:
@@ -89,6 +89,7 @@ The aim of the workshop is to enable testers with extensive Selenium and Java ex
 3. **Bits and Bobs**
    - Page Object Model
    - File uploads
+   - Setting up different environments
 
 ### Wrap-Up and Q&A
 
