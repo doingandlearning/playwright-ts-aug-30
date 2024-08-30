@@ -57,4 +57,6 @@ test("test kevin is still a director of his company", async ({ page }) => {
   await expect(
     page.getByRole("link", { name: "CUNNINGHAM, Kevin Peter" })
   ).toBeVisible();
+
+  await expect(page.locator("#officer-status-tag-2")).toHaveText("Active");
 });
