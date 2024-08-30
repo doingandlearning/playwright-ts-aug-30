@@ -1,20 +1,26 @@
 import { test, expect } from "@playwright/test";
 
-test("Check companies house title is correct", async ({ page }) => {
-  // Given
-  // When
+// DRY
+// Don't Repeat Yourself
+
+test.beforeEach(async ({ page }) => {
   await page.goto(
     "https://www.gov.uk/government/organisations/companies-house"
   );
+});
+
+// test.beforeAll()
+// test.afterEach()
+test("Check companies house title is correct", async ({ page }) => {
+  // Given
+  // When
+
   // Then
   await expect(page).toHaveTitle("Companies House - GOV.UK");
   await expect(page).toHaveTitle(/Companies/); // RegExp
 });
 
 test("Cookie banner goes and stays gone.", async ({ page, browser }) => {
-  await page.goto(
-    "https://www.gov.uk/government/organisations/companies-house"
-  );
   // Check that the cookie banner is visible
 
   const cookieBanner = page.getByLabel("Cookies on GOV.UK");
@@ -34,10 +40,6 @@ test("Cookie banner goes and stays gone.", async ({ page, browser }) => {
 });
 
 test("test kevin is still a director of his company", async ({ page }) => {
-  // Go to the website
-  await page.goto(
-    "https://www.gov.uk/government/organisations/companies-house"
-  );
   // Click the buttons
   await page.getByRole("link", { name: "Find company information" }).click();
   await page.getByRole("button", { name: "Start now" }).click();
@@ -59,4 +61,18 @@ test("test kevin is still a director of his company", async ({ page }) => {
   ).toBeVisible();
 
   await expect(page.locator("#officer-status-tag-2")).toHaveText("Active");
+});
+
+test("test", async ({ page }) => {
+  await page.goto(
+    "https://find-and-update.company-information.service.gov.uk/"
+  );
+
+  const page1Promise = page.waitForEvent("popup");
+
+  // Promise => resolved/rejected
+
+  await page.getByRole("link", { name: "Alphabetical company search" }).click();
+
+  const alphaSearchPage = await page1Promise;
 });
