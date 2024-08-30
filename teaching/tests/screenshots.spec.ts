@@ -1,6 +1,9 @@
 import { test, expect } from "@playwright/test";
 
+// test.setTimeout()
+
 test.skip("Take a screenshot", async ({ page, browserName }) => {
+  // page.setDefaultTimeout()
   await page.goto(
     "https://www.gov.uk/government/organisations/companies-house"
   );
@@ -9,6 +12,9 @@ test.skip("Take a screenshot", async ({ page, browserName }) => {
     path: `screenshots/${new Date().getTime()}-${browserName}-desktop-screenshot.jpg`,
     fullPage: true,
   });
+
+  // await page.update()
+  // Ctrl+K I
 
   await page.setViewportSize({ width: 640, height: 480 });
 

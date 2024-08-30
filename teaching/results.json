@@ -1,0 +1,1919 @@
+{
+  "config": {
+    "configFile": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/playwright.config.ts",
+    "rootDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.46.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "basic.spec.ts",
+      "file": "basic.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check companies house title is correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1008,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:12.256Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-3dbaeaa221fb4f769daf",
+          "file": "basic.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Cookie banner goes and stays gone.",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 0,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 1243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:12.248Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-be35e1249468cb18b5c0",
+          "file": "basic.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "test kevin is still a director of his company",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:12.233Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-19720622ca909b0c013d",
+          "file": "basic.spec.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:12.306Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-a6b560317a49b4f929ff",
+          "file": "basic.spec.ts",
+          "line": 66,
+          "column": 5
+        },
+        {
+          "title": "Check companies house title is correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 2685,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:17.686Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-f6700f54178471989c0e",
+          "file": "basic.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Cookie banner goes and stays gone.",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 0,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 3889,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:17.682Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-d97e879135e00218a9f3",
+          "file": "basic.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "test kevin is still a director of his company",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 6092,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:18.391Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-58f1ed8dd2a80bbb2eba",
+          "file": "basic.spec.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 2579,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:21.536Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-71b60a687e89d7d77434",
+          "file": "basic.spec.ts",
+          "line": 66,
+          "column": 5
+        },
+        {
+          "title": "Check companies house title is correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 1362,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:32.828Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-1660f79a0182b80a4e85",
+          "file": "basic.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Cookie banner goes and stays gone.",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 0,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 1837,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:33.110Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-bace2a7c59451aad9632",
+          "file": "basic.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "test kevin is still a director of his company",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 3641,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:33.171Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-f62dd30b749e59bdc332",
+          "file": "basic.spec.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 2199,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:34.466Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8946741c555a0c4515d8-53e9559ae57446452d0c",
+          "file": "basic.spec.ts",
+          "line": 66,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 751,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:13.699Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "the name of the test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 265,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:13.938Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-2f4a2a6f23eda3619e0c",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 1042,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:14.216Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
+          "file": "example.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 1160,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:22.756Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-f53a5ad453cd33dc57d5",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "the name of the test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:23.928Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-12ec9faa26daa0bf534b",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1948,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:24.128Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-bfe080d6fe34297f494c",
+          "file": "example.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 759,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:35.326Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-4a26ebd06a6b810edcc2",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "the name of the test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 236,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:36.090Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-165c87026ab97ec63a59",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 1074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:36.335Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-1eb159041d56409ed83c",
+          "file": "example.spec.ts",
+          "line": 14,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "parameter-with-import.spec.ts",
+      "file": "parameter-with-import.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 453,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:14.473Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-ccee8728b9edff53599e",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1010,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:14.571Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-d244d9838f5304087f75",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1811,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:14.930Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-27879afc14b8c395a90b",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:15.323Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-62b27ff4313b310a2278",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 989,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:24.316Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-ee2ea53a004439c83772",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 1770,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:25.313Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-9d421685e66538db2c7b",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 4356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:25.495Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-a6d87577acde7514bf86",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:26.085Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-a20bd9e7151cf113f138",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:36.687Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-65c9c15679e0e1eeccd7",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 1476,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:37.433Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-ac94f7cb2dd1c17836a0",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 3200,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:37.434Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-c485b5a30f4158666091",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 986,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:37.444Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9317c2637237c7c248b2-8df4d77c9778b896691d",
+          "file": "parameter-with-import.spec.ts",
+          "line": 7,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "parameter.spec.ts",
+      "file": "parameter.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 362,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:15.485Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-d6bb2454097c4679794c",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1017,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:15.596Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-e78de131a602640188da",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1788,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:15.857Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-5bdce62ca7c9b3c284f4",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 675,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:16.047Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-4ba9c4d4ef2bc4ea41b9",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 2755,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:27.869Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-1199e0cd14044d340afa",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 2605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:27.105Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-5995932fae9e79d7b6e6",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 4442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:27.515Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-9214f131d3e34c6699e6",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 1543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:29.718Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-26f219c9fbe94bdf02ce",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Companies House - GOV.UK title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:38.451Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-899391faf7db2746a145",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Google title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 1360,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:38.952Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-f77aa3f8c1b4b4f3005d",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Home - BBC News title test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 3044,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:39.215Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-f151b3a87fc3b833d48d",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        },
+        {
+          "title": "Kevin Cunningham (@dolearning) title test",
+          "ok": true,
+          "tags": [
+            "dolearning)"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:40.328Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d818fc6fbe0c99b0399e-6d31cb3aea605eee581a",
+          "file": "parameter.spec.ts",
+          "line": 26,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "screenshots.spec.ts",
+      "file": "screenshots.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Take a screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:16.619Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-205c56852f813ead38c9",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Visual regression",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "failed",
+                  "duration": 10215,
+                  "error": {
+                    "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-chromium-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-chromium-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n\n    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22",
+                    "location": {
+                      "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                      "column": 22,
+                      "line": 26
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                        "column": 22,
+                        "line": 26
+                      },
+                      "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-chromium-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 675137 pixels (ratio 0.07 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:16.621Z",
+                  "attachments": [
+                    {
+                      "name": "Visual-regression-1-expected.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-chromium-darwin.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-actual.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-actual.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-diff.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/Visual-regression-1-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-chromium/test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                    "column": 22,
+                    "line": 26
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-716a91dd716bcf813b32",
+          "file": "screenshots.spec.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "title": "Take a screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:29.874Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-a912d72011d5cfbff357",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Visual regression",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "failed",
+                  "duration": 11715,
+                  "error": {
+                    "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-firefox-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-firefox-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\n    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22",
+                    "location": {
+                      "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                      "column": 22,
+                      "line": 26
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                        "column": 22,
+                        "line": 26
+                      },
+                      "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-firefox-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7690px. 565931 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:29.889Z",
+                  "attachments": [
+                    {
+                      "name": "Visual-regression-1-expected.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-firefox-darwin.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-actual.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-actual.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-diff.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/Visual-regression-1-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-firefox/test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                    "column": 22,
+                    "line": 26
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-3c7f9d5bad104cd32cca",
+          "file": "screenshots.spec.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "title": "Take a screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:40.653Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-806b2d42f97f65b42be8",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Visual regression",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "failed",
+                  "duration": 4602,
+                  "error": {
+                    "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-webkit-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-webkit-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\n    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22",
+                    "location": {
+                      "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                      "column": 22,
+                      "line": 26
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                        "column": 22,
+                        "line": 26
+                      },
+                      "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\n\nExpected: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-webkit-darwin.png\u001b[39m\nReceived: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 1280px by 720px, received 1280px by 7678px. 560487 pixels (ratio 0.06 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 24 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot({\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 27 |\u001b[39m     maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m120000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 28 |\u001b[39m     fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 29 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts:26:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-08-30T14:49:40.678Z",
+                  "attachments": [
+                    {
+                      "name": "Visual-regression-1-expected.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts-snapshots/Visual-regression-1-webkit-darwin.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-actual.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-actual.png"
+                    },
+                    {
+                      "name": "Visual-regression-1-diff.png",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/Visual-regression-1-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/test-results/screenshots-Visual-regression-webkit/test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/kevin/code/fwt/playwright-aug-30-2024/teaching/tests/screenshots.spec.ts",
+                    "column": 22,
+                    "line": 26
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-935da7f36e8139e06d3f",
+          "file": "screenshots.spec.ts",
+          "line": 21,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-08-30T14:49:11.760Z",
+    "duration": 33616.865000000005,
+    "expected": 45,
+    "skipped": 3,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

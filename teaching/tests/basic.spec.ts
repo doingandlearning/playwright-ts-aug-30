@@ -22,7 +22,6 @@ test("Check companies house title is correct", async ({ page }) => {
 
 test("Cookie banner goes and stays gone.", async ({ page, browser }) => {
   // Check that the cookie banner is visible
-
   const cookieBanner = page.getByLabel("Cookies on GOV.UK");
   await expect(cookieBanner).toBeVisible();
 
